@@ -56,14 +56,14 @@ let user2 = [
     }
 ]
 
-for(i in user2){
-    if (user2[i].name =="Anna"){
-    delete user2[i] 
+for(i in user){
+    if (user[i].name =="Anna"){
+    delete user[i] 
     }
 }
-console.log(user2[0])
-console.log(user2[1])
-console.log(user2[2])*/
+console.log(user[0])
+console.log(user[1])
+console.log(user[2])*/
 
 
 //4
