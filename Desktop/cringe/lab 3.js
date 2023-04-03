@@ -15,6 +15,6 @@ let name1 = name.substr(0, 1).toUpperCase() + name.substr(1).toLowerCase()
 let surname1 = surname.substr(0,1).toUpperCase() + surname.substr(1).toLowerCase()
 console.log(name1)
 console.log(surname1)
-console.log(name === name1 ? 'Имя было преобразовано' : 'Имя осталось без изменений')
-console.log(surname === surname1 ? 'Фамилия была преобразована' : 'Фамилия осталась без изменений')
+console.log(name === name1 ? 'Имя осталось без изменений' : 'Имя было преобразовано')
+console.log(surname === surname1 ? 'Фамилия осталась без изменений' : 'Фамилия Фамилия была преобразована')
 
