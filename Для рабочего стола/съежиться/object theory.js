@@ -1,10 +1,15 @@
 //1 
-/*let obj2 = {
-name: "Ivan",
-age: 19,
+/*let user = {
+    name: 'John',
+    surname: 'Smith'
 }
-console.log(obj2)
-console.log(obj2.age)
+console.log(user);
+
+user.name = 'Pete'
+console.log(user);   
+
+delete user.name
+console.log(user)
 
 
 //2
